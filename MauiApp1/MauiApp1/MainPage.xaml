@@ -44,6 +44,10 @@
 
                 <Entry Placeholder="Hour" Grid.Column="2" Keyboard="Numeric" Grid.Row="2" Margin="0, 0, 0, 10"></Entry>
             </Grid>
+            <Button Text="Test powiadomienia" Clicked="Button_Clicked"></Button>
+            <DatePicker x:Name="DatePickerObj"></DatePicker>
+            <TimePicker x:Name="TimePickerObj"></TimePicker>
+            <Button Text="Powiadomienie zzplanowane" Clicked="Button_Clicked_1"></Button>
         </VerticalStackLayout>
     </ScrollView>
 
